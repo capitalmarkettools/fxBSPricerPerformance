@@ -1,0 +1,28 @@
+<head>
+  <title>Pricing performance</title>
+</head>
+
+<body>
+  <h1>Pricng performance</h1>
+
+  {{> hello}}
+  {{> info}}
+</body>
+
+<template name="hello">
+    <button name="incrementor">Increment Numer of Trades</button>
+    <reducer>Reduce Numer of Trades</reducer>
+    <pricer>Price</pricer>
+    <p>Runtime to price {{numberTrades}} FX Options with BS was {{runTime}}.</p>
+    <p>BS price is {{BSPrice}}</p>
+</template>
+
+<template name="info">
+  <h2>Learn Meteor!</h2>
+  <ul>
+    <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
+    <li><a href="http://guide.meteor.com" target="_blank">Follow the Guide</a></li>
+    <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
+    <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
+  </ul>
+</template>
